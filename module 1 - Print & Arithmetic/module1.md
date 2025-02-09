@@ -50,10 +50,10 @@ print(
 **Solution:**
 
 ```python
-from math import pi
+from math import pi, pow
 
 radius = 5
-area = (pi * radius)**2
+area = (pi * pow(5, 2))
 
 print(f'The area of a circle with a radius of {radius} is {area}.')
 ```
